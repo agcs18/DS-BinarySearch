@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BinarySeach/BinarySeach.iml" filepath="$PROJECT_DIR$/BinarySeach/BinarySeach.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DS-BinarySearch.iml" filepath="$PROJECT_DIR$/DS-BinarySearch.iml" />
+    </modules>
+  </component>
+</project>
