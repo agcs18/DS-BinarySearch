@@ -1,6 +1,5 @@
 
 import java.util.Scanner;
-
 public class BinarySearch {
     public static void main(String[] args) {
         int size;
@@ -21,13 +20,14 @@ public class BinarySearch {
 
     public void BinarySearch_It(int arr[], int low, int high, int elem) {
         System.out.println("hi");
-
+        int position = 0;
         while (low <= high) {
             //{1,2,3,4,5,6}
             int mid = (low + high) / 2;
 
             if (elem == arr[mid]) {
                 System.out.println("element found at " + (mid + 1) + " position");
+                position += mid;
                 break;
             } else if (elem < arr[mid]) {
                 high = mid - 1;
@@ -36,6 +36,9 @@ public class BinarySearch {
                 low = mid + 1;
 
             }
+        }
+        if (position == 0) {
+            System.out.println("Element Not found");
         }
     }
 }
